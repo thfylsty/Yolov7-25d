@@ -16,6 +16,7 @@ Implementation of paper - [YOLOv7: Trainable bag-of-freebies sets new state-of-t
         <img src="./figure/performance.png" width="79%"/>
     </a>
 </div>
+
 ## 2.5D
 
 在官方的基础上改了检测头、导出onnx（适配tensorrt pro 项目）、测试demo等代码。
@@ -32,7 +33,7 @@ https://www.bilibili.com/video/BV1Wd4y1G78M/?vd_source=0223c707743ff3013adaeff54
 
 使用TRT加速，在AGX Xavier上推理大约4ms
 
-
+V2X使用tools/convertlabel2yolo.ipynb 进行数据集转换
 
 
 
