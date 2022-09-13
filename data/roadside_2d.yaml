@@ -1,0 +1,9 @@
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+
+train: ['/data/fuyu/yolo/yolov5/roadsidenew/train.txt', '/data/fuyu/yolo/yolov5/hive/train.txt']  # train images (relative to 'path') 118287 images
+val: ['/data/fuyu//yolo/yolov5/roadsidenew/val.txt', '/data/fuyu/yolo/yolov5/hive/val.txt']  # train images (relative to 'path') 5000 images
+test: ['/data/fuyu//yolo/yolov5/roadsidenew/test.txt', '/data/fuyu/yolo/yolov5/hive/test.txt']  # train images (relative to 'path') 5000 images
+
+nc: 5  # number of classes
+names: ['person', 'car', 'bus', 'truck', 'rider']

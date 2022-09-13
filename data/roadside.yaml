@@ -1,0 +1,20 @@
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+
+#train: /data/common/datasets/roadside_yolo/train.txt
+#val: /data/common/datasets/roadside_yolo/val.txt
+#test: /data/common/datasets/roadside_yolo/test.txt
+
+train: /home/fuyu/data/yolo/roadside_yolo/train.txt
+val: /home/fuyu/data/yolo/roadside_yolo/val.txt
+test: /home/fuyu/data/yolo/roadside_yolo/test.txt
+
+#train: /media/fy/Data/DataSet/dataset/v2x_yolo/train.txt
+#val: /media/fy/Data/DataSet/dataset/v2x_yolo/val.txt
+#test: /media/fy/Data/DataSet/dataset/v2x_yolo/test.txt
+
+# number of classes
+nc: 11
+
+# class names
+names: [ "Pedestrian", "Car","MotorcyleRider", "Crane", "Motorcycle", "Bus", "BicycleRider", "Van", "Excavator", "TricycleRider","Truck"]
